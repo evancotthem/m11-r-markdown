@@ -5,7 +5,6 @@ output: html_document
 
 ```{r, echo=FALSE, message=FALSE}
 ### Exercise 1 ###
-
 library(jsonlite)
 library(dplyr)
 
@@ -54,4 +53,4 @@ movie.info <- GetReview(movie)
 
 >`r movie.info$summary`
 
-[link](`r movie.info$link`)
+[Link](`r movie.info$link`) to the review
